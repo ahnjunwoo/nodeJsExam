@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/junwoo', function(req, res) {
-    res.send('Hello Junwoo22');
+    res.send('Hello Junwoo22---');
 });
 
 app.listen(3000, function() {
