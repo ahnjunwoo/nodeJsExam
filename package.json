@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
+    "jada": "0.0.0",
+    "jade": "^1.11.0",
     "underscore": "^1.8.3"
   }
 }
