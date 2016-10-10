@@ -13,7 +13,7 @@ app.get('/', function(req, res) {
 app.get('/dynamic',function(req,res){
     var lis = '';
     for(var i=0; i<5; i++){
-      lis = lis +'<li>coding</li>';
+      lis = lis +'<li>coding</li>d';
     }
     var time = new Date();
     var output = `
