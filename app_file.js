@@ -46,7 +46,7 @@ app.post('/topic',function(req,res){
         console.log(err);
         res.status(500).send('Internal Server Error');
     }
-    res.redirect('/topic');
+    res.redirect('/topic/'+title);
   });
 
 });
